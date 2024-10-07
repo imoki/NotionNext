@@ -97,6 +97,7 @@ const GlobalHead = props => {
     <Head>
       <link rel='icon' href={favicon} />
       <title>{title}</title>
+      <meta name="referrer" content="no-referrer" />
       <meta name='theme-color' content={BACKGROUND_DARK} />
       <meta
         name='viewport'
